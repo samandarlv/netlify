@@ -1,0 +1,56 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin-top: 50px;
+}
+.body-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 50px;
+  gap: 50px;
+  width: 50%;
+  padding: 30px;
+  background-color: rgb(202, 198, 198);
+}
+a {
+  font-size: 18px;
+  text-decoration: none;
+  color: blueviolet;
+  position: relative;
+}
+button {
+  width: 24px;
+  height: 24px;
+  border-radius: 55%;
+  background-color: blue;
+  color: white;
+  border: none;
+}
+.button1 {
+  position: absolute;
+  left: 635px;
+  top: 120px;
+}
+.button2 {
+  position: absolute;
+  left: 780px;
+  top: 120px;
+}
+.button3 {
+  position: absolute;
+  left: 935px;
+  top: 120px;
+}
+.button4 {
+  position: absolute;
+  left: 1155px;
+  top: 120px;
+}
