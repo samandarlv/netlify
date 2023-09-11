@@ -7,8 +7,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 80%;
+  width: 800px;
   margin-top: 50px;
+  margin-left: 420px;
 }
 .body-nav {
   display: flex;
@@ -16,7 +17,7 @@
   justify-content: center;
   margin-top: 50px;
   gap: 50px;
-  width: 50%;
+  width: 800px;
   padding: 30px;
   background-color: rgb(202, 198, 198);
 }
