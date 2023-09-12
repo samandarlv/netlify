@@ -4,13 +4,15 @@
   box-sizing: border-box;
 }
 .body {
-  width: 1600px;
+  width: 100%;
   height: 900px;
   flex-shrink: 0;
   background: rgba(0, 0, 0, 0.30);
-}
-.body img {
-  position: relative;
+  background-image: url("./images/Rectangle\ 31.png");
+  background-repeat: no-repeat;
+  object-fit: cover;
+  background-position: center;
+  background-size: cover;
 }
 .navbar {
   position: absolute;
@@ -110,7 +112,6 @@
 }
 
 .main {
-  width: 1601px;
   height: 3948px;
   flex-shrink: 0;
   display: flex;
