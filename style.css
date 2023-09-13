@@ -344,6 +344,7 @@ span {
   text-transform: uppercase;
 }
 .footer {
+  width: 1520px;
   height: 617px;
   flex-shrink: 0;
   background: #141414;
