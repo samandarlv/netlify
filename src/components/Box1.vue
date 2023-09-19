@@ -69,7 +69,6 @@
   .box-1 {
     margin-top: 18px;
     width: 100%;
-    border: 1px solid;
     background-image: url("../assets/IMAGE\ \(2\).png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -79,11 +78,8 @@
     color: #fff;
   }
   .box-1-text {
-    width: 100%;
-    height: fit-content;
     flex-shrink: 0;
-    padding: 98px 250px;
-    width: fit-content;
+    padding: 98px 0 50px 0;
   }
   .box-1-text h1 {
     color: #fff;
@@ -94,10 +90,9 @@
     height: 2px;
     flex-shrink: 0;
     background: #fff;
-    margin: 28px 430px;
+    margin: 28px auto;
   }
   .box-2 {
-    // height: auto;
     background: #fefec9;
   }
   .box-2-item {
@@ -123,7 +118,6 @@
   }
   .box-3-item {
     width: 940px;
-    height: 487px;
     flex-shrink: 0;
     margin: 69px auto;
   }
@@ -155,7 +149,29 @@
     font-size: 15px;
     line-height: 22px;
   }
+  @media (max-width: 769px) {
+    .box-2-item {
+      padding: 60px 10px;
+    }
+    .box-3-cards {
+      flex-wrap: wrap;
+    }
+    .box-3-card {
+      width: calc(50% - 10px);
+    }
+    .box-3-item {
+      width: 100%;
+    }
+    .box-3-item h1 {
+      font-size: 18px;
+      line-height: normal;
+    }
+  }
   @media (max-width: 447px) {
+    .box-1-text {
+      width: 100%;
+      padding-left: 20px;
+    }
     .box-1-text h1 {
       font-size: 26px;
     }
@@ -167,16 +183,14 @@
     }
     .box-3-cards {
       flex-direction: column;
+      width: 100%;
+      padding: 20px;
     }
     .box-3-item {
       width: 100%;
     }
     .box-3-item h1 {
       padding: 10px;
-    }
-    .box-3-cards {
-      width: 100%;
-      padding: 20px;
     }
     .box-3-card {
       width: 100%;

@@ -104,7 +104,7 @@
   }
   @media (max-width: 447px) {
     .box-main {
-      margin-top: 600px;
+      margin: 0 auto;
     }
     .box {
       width: 100%;
@@ -119,6 +119,12 @@
     }
     .alone {
         margin: 0px auto;
+    }
+  }
+  @media (max-width: 769px) {
+    .box {
+      width: fit-content;
+      margin: 69px auto;
     }
   }
 </style>
